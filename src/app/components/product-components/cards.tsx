@@ -4,7 +4,7 @@ import ProductCard from "../product-card";
 const Cards: React.FC = () => {
   const products: Product[] = [
     {
-      image: "/public/card1.png",
+      image:  "/card1.png",
       name: "Graphic Design",
       department: "English Department",
       originalPrice: "$16.48",
@@ -12,7 +12,7 @@ const Cards: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/public/card2.png",
+      image: "/card2.png",
       name: "Web Design",
       department: "Marketing Department",
       originalPrice: "$16.48",
@@ -20,7 +20,7 @@ const Cards: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/public/card3.png",
+      image: "/card3.png",
       name: "Logo Design",
       department: "Branding Department",
       originalPrice: "$16.48",
@@ -28,7 +28,7 @@ const Cards: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/public/card4.png",
+      image: "/card4.png",
       name: "UI/UX Design",
       department: "Product Department",
       originalPrice: "$16.48",
@@ -36,7 +36,7 @@ const Cards: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/public/card5.png",
+      image: "/card5.png",
       name: "Branding Design",
       department: "Creative Department",
       originalPrice: "$16.48",
@@ -44,7 +44,7 @@ const Cards: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/public/card6.png",
+      image: "/card6.png",
       name: "App Design",
       department: "Tech Department",
       originalPrice: "$16.48",
@@ -52,7 +52,7 @@ const Cards: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/public/card7.png",
+      image: "/card7.png",
       name: "Product Strategy",
       department: "Sales Department",
       originalPrice: "$16.48",
@@ -60,7 +60,7 @@ const Cards: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/public/card8.png",
+      image: "/card8.png",
       name: "Marketing Strategy",
       department: "Sales Department",
       originalPrice: "$16.48",
@@ -78,30 +78,29 @@ const Cards: React.FC = () => {
         ))}
       </div>
 
-     {/* Pagination Controls */}
-<div className="flex flex-wrap justify-center items-center space-x-4 mt-16 border-[#BDBDBD] border-2 rounded-md">
-  <button className="px-4 py-2 bg-[#F3F3F3] text-[#BDBDBD] rounded-md hover:bg-gray-300 text-sm sm:px-8 sm:py-6">
-    First
-  </button>
+      {/* Pagination Controls */}
+      <div className="flex flex-wrap justify-center items-center space-x-4 mt-16 border-[#BDBDBD] border-2 rounded-md">
+        <button className="px-4 py-2 bg-[#F3F3F3] text-[#BDBDBD] rounded-md hover:bg-gray-300 text-sm sm:px-8 sm:py-6">
+          First
+        </button>
 
-  {/* Page Numbers */}
-  <div className="flex space-x-2 mt-4 sm:mt-0">
-    <button className="px-4 py-2 font-bold rounded-md text-[#23A6F0] hover:bg-[#23A6F0] hover:text-white text-sm sm:px-8 sm:py-6">
-      1
-    </button>
-    <button className="px-4 py-2 font-bold rounded-md text-[#23A6F0] hover:bg-[#23A6F0] hover:text-white text-sm sm:px-8 sm:py-6">
-      2
-    </button>
-    <button className="px-4 py-2 font-bold rounded-md text-[#23A6F0] hover:bg-[#23A6F0] hover:text-white text-sm sm:px-8 sm:py-6">
-      3
-    </button>
-  </div>
+        {/* Page Numbers */}
+        <div className="flex space-x-2 mt-4 sm:mt-0">
+          <button className="px-4 py-2 font-bold rounded-md text-[#23A6F0] hover:bg-[#23A6F0] hover:text-white text-sm sm:px-8 sm:py-6">
+            1
+          </button>
+          <button className="px-4 py-2 font-bold rounded-md text-[#23A6F0] hover:bg-[#23A6F0] hover:text-white text-sm sm:px-8 sm:py-6">
+            2
+          </button>
+          <button className="px-4 py-2 font-bold rounded-md text-[#23A6F0] hover:bg-[#23A6F0] hover:text-white text-sm sm:px-8 sm:py-6">
+            3
+          </button>
+        </div>
 
-  <button className="px-4 py-2 text-[#23A6F0] rounded-md hover:bg-[#1D8CC8] hover:text-white text-sm sm:px-8 sm:py-6">
-    Next
-  </button>
-</div>
-
+        <button className="px-4 py-2 text-[#23A6F0] rounded-md hover:bg-[#1D8CC8] hover:text-white text-sm sm:px-8 sm:py-6">
+          Next
+        </button>
+      </div>
     </div>
   );
 };

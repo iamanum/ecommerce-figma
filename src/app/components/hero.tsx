@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative bg-[url('/public/hero.png')] bg-cover bg-[center_top] h-[400px] sm:h-[600px] lg:h-[716px]">
+    <div className="relative bg-[url('/images/hero.png')] bg-cover bg-[center_top] h-[400px] sm:h-[600px] lg:h-[716px]">
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-10"></div>
 

@@ -5,7 +5,7 @@ import ProductCard from "./product-card";
 const FeatureProducts: React.FC = () => {
   const products: Product[] = [
     {
-      image: "/feature1.png",
+      image: "/images/feature1.png",
       name: "Graphic Design",
       department: "English Department",
       originalPrice: "$16.48",
@@ -13,7 +13,7 @@ const FeatureProducts: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/feature2.png",
+      image: "/images/feature2.png",
       name: "Web Design",
       department: "Marketing Department",
       originalPrice: "$16.48",
@@ -21,7 +21,7 @@ const FeatureProducts: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/feature3.png",
+      image: "/images/feature3.png",
       name: "Logo Design",
       department: "Branding Department",
       originalPrice: "$16.48",
@@ -29,7 +29,7 @@ const FeatureProducts: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/feature4.png",
+      image: "/images/feature4.png",
       name: "UI/UX Design",
       department: "Product Department",
       originalPrice: "$16.48",
@@ -37,7 +37,7 @@ const FeatureProducts: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/feature5.png",
+      image: "/images/feature5.png",
       name: "Branding Design",
       department: "Creative Department",
       originalPrice: "$16.48",
@@ -45,7 +45,7 @@ const FeatureProducts: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/feature6.png",
+      image: "/images/feature6.png",
       name: "App Design",
       department: "Tech Department",
       originalPrice: "$16.48",
@@ -53,7 +53,7 @@ const FeatureProducts: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/feature7.png",
+      image: "/images/feature7.png",
       name: "Product Strategy",
       department: "Sales Department",
       originalPrice: "$16.48",
@@ -61,7 +61,7 @@ const FeatureProducts: React.FC = () => {
       colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#E77C40]", "bg-[#252B42]"],
     },
     {
-      image: "/feature8.png",
+      image: "/images/feature8.png",
       name: "Marketing Strategy",
       department: "Sales Department",
       originalPrice: "$16.48",
@@ -113,7 +113,7 @@ const FeatureProducts: React.FC = () => {
         {/* Image Section */}
         <div className="w-full sm:w-[400px] md:w-[510px] flex-shrink-0">
           <Image
-            src={"/classic.png"}
+            src={"/images/classic.png"}
             alt="classic"
             width={510}
             height={685}
@@ -126,7 +126,7 @@ const FeatureProducts: React.FC = () => {
         {/* Image Section */}
         <div className="w-full md:w-auto">
           <Image
-            src={"/universe.png"}
+            src={"/images/universe.png"}
             alt="universe"
             height={704}
             width={682}

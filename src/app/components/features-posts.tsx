@@ -30,7 +30,7 @@ const FeauresPosts = () => {
               </div>
 
               <Image
-                src={`/${blog}`}
+                src={`/images/${blog}`} 
                 alt="blog"
                 width={348}
                 height={300}

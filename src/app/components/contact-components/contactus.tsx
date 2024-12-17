@@ -63,8 +63,8 @@ const ContactUs = () => {
 
       {/* Image Section */}
       <div className="w-full md:w-1/2 mt-8 md:mt-0">
-        <image
-          src="/contactus.png"
+        <Image
+          src="/images/contactus.png"
           alt="aboutus"
           height={280}
           width={415}

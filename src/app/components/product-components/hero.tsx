@@ -13,7 +13,7 @@ const Hero = () => {
         </p>
       </div>
       <div className='mt-10 flex justify-center items-center'>
-        <Image src={"/card13.png"} alt='card' height={223} width={1088} />
+        <Image src={"/images/card13.png"} alt='card' height={223} width={1088} />
       </div>
     </div>
   );

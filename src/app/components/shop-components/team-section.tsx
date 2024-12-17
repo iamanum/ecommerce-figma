@@ -29,7 +29,7 @@ const TeamSection: React.FC = () => {
         instagram: "#",
         twitter: "#",
       },
-      image: "/team-member1.png",
+      image: "/images/team-member1.png",
     },
     {
       name: "Jane Smith",
@@ -39,7 +39,7 @@ const TeamSection: React.FC = () => {
         instagram: "#",
         twitter: "#",
       },
-      image: "/team-member2.png",
+      image: "/images/team-member2.png",
     },
     {
       name: "Sam Wilson",
@@ -49,7 +49,7 @@ const TeamSection: React.FC = () => {
         instagram: "#",
         twitter: "#",
       },
-      image: "/team-member3.png",
+      image: "/images/team-member3.png",
     },
     {
       name: "Emily Davis",
@@ -59,7 +59,7 @@ const TeamSection: React.FC = () => {
         instagram: "#",
         twitter: "#",
       },
-      image: "/team-member4.png",
+      image: "/images/team-member4.png",
     },
     {
       name: "Michael Brown",
@@ -69,7 +69,7 @@ const TeamSection: React.FC = () => {
         instagram: "#",
         twitter: "#",
       },
-      image: "/team-member5.png",
+      image: "/images/team-member5.png",
     },
     {
       name: "Sarah Lee",
@@ -79,7 +79,7 @@ const TeamSection: React.FC = () => {
         instagram: "#",
         twitter: "#",
       },
-      image: "/team-member6.png",
+      image: "/images/team-member6.png",
     },
     {
       name: "Chris Martin",
@@ -89,7 +89,7 @@ const TeamSection: React.FC = () => {
         instagram: "#",
         twitter: "#",
       },
-      image: "/team-member7.png",
+      image: "/images/team-member7.png",
     },
     {
       name: "Laura Johnson",
@@ -99,7 +99,7 @@ const TeamSection: React.FC = () => {
         instagram: "#",
         twitter: "#",
       },
-      image: "/team-member8.png",
+      image: "/images/team-member8.png",
     },
     {
       name: "David Clark",
@@ -109,7 +109,7 @@ const TeamSection: React.FC = () => {
         instagram: "#",
         twitter: "#",
       },
-      image: "/team-member9.png",
+      image: "/images/team-member9.png",
     },
   ];
 

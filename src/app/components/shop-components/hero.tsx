@@ -18,7 +18,7 @@ export default function Hero() {
         {/* First Image taking 2x2 space */}
         <div className="col-span-2 row-span-2 transition-transform transform hover:scale-105 hover:shadow-lg">
           <Image
-            src="/team1.png"
+            src="/images/team1.png"
             alt="team"
             height={530}
             width={700}
@@ -29,7 +29,7 @@ export default function Hero() {
         {/* Remaining Images */}
         <div className="transition-transform transform hover:scale-105 hover:shadow-lg">
           <Image
-            src="/team2.png"
+            src="/images/team2.png"
             alt="team"
             height={260}
             width={361}
@@ -38,7 +38,7 @@ export default function Hero() {
         </div>
         <div className="transition-transform transform hover:scale-105 hover:shadow-lg">
           <Image
-            src="/team3.png"
+            src="/images/team3.png"
             alt="team"
             height={260}
             width={361}
@@ -47,7 +47,7 @@ export default function Hero() {
         </div>
         <div className="transition-transform transform hover:scale-105 hover:shadow-lg">
           <Image
-            src="/team4.png"
+            src="/images/team4.png"
             alt="team"
             height={260}
             width={361}
@@ -56,7 +56,7 @@ export default function Hero() {
         </div>
         <div className="transition-transform transform hover:scale-105 hover:shadow-lg">
           <Image
-            src="/team5.png"
+            src="/images/team5.png"
             alt="team"
             height={260}
             width={361}

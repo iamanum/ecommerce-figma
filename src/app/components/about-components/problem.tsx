@@ -52,7 +52,7 @@ const Problem = () => {
       {/* Image Section */}
       <div className="mt-16 sm:mt-20 flex justify-center items-center mx-6 sm:mx-36">
         <Image
-          src={"/public/problem.png"}
+          src={"/images/problem.png"}
           alt="problem"
           width={989}
           height={540}
