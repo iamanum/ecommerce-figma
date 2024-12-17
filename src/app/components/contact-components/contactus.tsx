@@ -69,7 +69,7 @@ const ContactUs = () => {
           height={280}
           width={415}
           className="w-full h-auto object-contain"
-        /image>
+        />
       </div>
     </div>
   );
