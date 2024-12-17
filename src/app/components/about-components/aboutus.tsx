@@ -27,7 +27,7 @@ const AboutUs = () => {
 
       {/* Image Section */}
       <div className="w-full md:w-1/2 mt-8 md:mt-0">
-        <Image
+        <image
           src="/aboutus.png"
           alt="aboutus"
           height={280}
